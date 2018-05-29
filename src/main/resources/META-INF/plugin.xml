@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>net.wavehack.ideaplugins.bettercomments</id>
+    <name>Better Comments</name>
+    <vendor email="email@wavehack.net" url="https://twitter.com/WaveHack">WaveHack</vendor>
+
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <lang.syntaxHighlighterFactory language="JAVA" implementationClass="BetterCommentsSyntaxHighlighterFactory" />
+        <!-- Add your extensions here -->
+        <!-- syntaxHighlighter? -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
